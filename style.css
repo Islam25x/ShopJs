@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    list-style: none;
+}
+body{
+    background-color: black !important;
+}
+header{
+    border-bottom: 1px solid rgb(42, 42, 42);
+}
+header nav{
+    background-color: rgb(95, 95, 95);
+    padding: 1rem 0 !important;
+    position: relative;
+}
+header nav img{
+    width: 10rem;
+}
+header form{
+    margin: 1.5rem 0;
+}
+header form select ,header form input{
+    width: 48%;
+}
+header form input{
+    margin-left: 2%;
+}
+main .card{
+    margin: 1rem;
+    padding: 1rem;
+}
+main .card img{
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+main .card .card_bottom{
+    margin-top: 1rem;
+}
+main .card .card_bottom img{
+    width: 2rem;
+    cursor: pointer;
+    margin: 0;
+}
+main .card .card_bottom button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.navbar i {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    vertical-align: text-top;
+}
+.navbar i:hover{
+    color: var(--font-hover);
+}
+#order{
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+    padding: 1rem 1rem 0;
+    z-index: 11;
+}
+#order .view {
+    cursor: pointer;
+}
+#order h3 span{
+    margin-left: 1rem;
+}
+#order .btns {
+    margin-left: -.5rem;
+}
+#order .btns button{
+    margin-left: .5rem;
+    background-color: black;
+    color: white;
+    padding: 0rem .5rem 0.2rem;
+    border: none;
+    font-size: 1.3rem;
+}
+.order{
+    display: flex;
+    justify-content: space-between
+}
+.order div{
+    align-content: center;
+}
+#order img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+    margin: 1rem 1rem 1rem 0;
+}
+#order .x{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2rem 0 0 7rem;
+    cursor: pointer;
+    color: red;
+}
+#order .x:hover{
+    color: black;
+}
